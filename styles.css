@@ -20,13 +20,14 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     margin: 0;
-    color: white;
-    font-weight: 700;
     width: 1000px;
 }
 
 .logo {
     align-self: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
 }
 
 .right-links {
@@ -41,7 +42,8 @@ ol {
 }
 
 a {
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
     text-decoration: none;
     font-weight: 100;
 }
@@ -49,10 +51,51 @@ a {
 .banner-content {
     display: flex;
     justify-content: space-between;
+    width: 1000px;
+    margin: 70px;
+    gap: 40px;
 }
 
 .left-content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    gap: 10px;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+button {
+    display: flex;
+    background-color: #3882F6;
+    color: #f9faf8;
+    width: 100px;
+    height: 33px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 0;
+}
+
+.image {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(151, 151, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
 }

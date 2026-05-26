@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .banner {
@@ -90,7 +91,7 @@ button {
     border: 0;
 }
 
-.image {
+.placeholder {
     width: 800px;
     height: 200px;
     background-color: rgb(151, 151, 151);
@@ -98,4 +99,19 @@ button {
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
 }

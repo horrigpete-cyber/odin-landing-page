@@ -86,15 +86,15 @@ a {
     flex-shrink: 1;
 }
 
-button {
+.button {
     display: flex;
     background-color: #3882F6;
     color: #f9faf8;
-    width: 100px;
-    height: 33px;
+    width: 150px;
+    height: 40px;
     padding: 5px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -229,9 +229,12 @@ button {
     font-weight: 100;
 }
 
-button {
+.cta-button {
     font-weight: 500;
     font-size: 18px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
     width: 150px;
     height: 40px;
     border: #F9FAF8 2px solid;

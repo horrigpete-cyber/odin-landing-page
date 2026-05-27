@@ -240,3 +240,16 @@ a {
     border: #F9FAF8 2px solid;
     box-sizing: border-box;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: 18px;
+    font-weight: 100;
+}

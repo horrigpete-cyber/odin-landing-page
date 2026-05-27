@@ -14,6 +14,7 @@ body {
     background-color: #1F2937;
     margin: 0;
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .header {
@@ -21,7 +22,9 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     margin: 0;
-    width: 1000px;
+    max-width: 2000px;
+    gap: 300px;
+    flex-shrink: 1;
 }
 
 .logo {
@@ -29,17 +32,20 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    flex-shrink: 1;
 }
 
 .right-links {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-shrink: 1;
 }
 
 ul,
 ol {
     list-style-type: none;
+    flex-shrink: 1;
 }
 
 a {
@@ -47,6 +53,7 @@ a {
     font-size: 18px;
     text-decoration: none;
     font-weight: 100;
+    flex-shrink: 1;
 }
 
 .banner-content {
@@ -55,6 +62,7 @@ a {
     width: 1000px;
     margin: 70px;
     gap: 40px;
+    flex-shrink: 1;
 }
 
 .left-content {
@@ -62,17 +70,20 @@ a {
     justify-content: space-between;
     flex-direction: column;
     gap: 10px;
+    flex-shrink: 1;
 }
 
 .hero {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    flex-shrink: 1;
 }
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 100;
+    flex-shrink: 1;
 }
 
 button {
@@ -89,6 +100,7 @@ button {
     justify-content: center;
     border-radius: 8px;
     border: 0;
+    flex-shrink: 1;
 }
 
 .placeholder {
@@ -99,6 +111,7 @@ button {
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
+    flex-shrink: 1;
 }
 
 .content {
@@ -143,4 +156,41 @@ button {
     font-size: 18px;
     color: gray;
     text-align: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-shrink: 1;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    width: 825px;
+    align-self: center;
+    flex-shrink: 1;
+}
+
+.quoter {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.content-box {
+    display: flex;
+    justify-content: center;
+}
+
+.content-box:has(.quote-content) {
+    background-color: #E5E7EB;
 }
